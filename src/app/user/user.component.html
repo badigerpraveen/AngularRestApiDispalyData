@@ -1,0 +1,21 @@
+<p>Dispalying data using Rest Api </p>
+<table class="table table-bordered">
+    <thead>
+      <tr>
+        <th scope="col"> id</th>
+        <th scope="col">Name</th>
+        <th scope="col">User Name</th>
+        <th scope="col">Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of usres">
+        <td> {{user.id}}</td>
+        <td> {{user.name}} </td>
+        <td> {{user.username}}</td>
+        <td> {{user.email}}</td>
+      </tr>
+
+    
+    </tbody>
+  </table> 
